@@ -26,11 +26,9 @@ body {
 #google_logo {
     max-height: 100%;
     max-width: 100%;
-    object-fit: contain;
-    object-position: center bottom;
     width: auto;
     position: relative;
-    top: 100px;
+    left: 100px;
     height: 92px;
     aspect-ratio: auto 272 / 92;
     width: 272px;
@@ -48,12 +46,19 @@ body {
 #gmail {
     position:relative;
     left: 800px;
+    bottom: 4px;
 
 }
 #images {
     position:relative;
     left: 800px;
+    bottom: 4px;
 
+}
+
+.centered {
+    position:relative;
+    justify-content:center;
 }
 
 
