@@ -1,3 +1,28 @@
+
+
+body, input, button {
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    color: #222;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    min-width: 400px;
+}
+
+body {
+    background: gainsboro;
+}
+body {
+    display: block;
+}
+
+
 #google_logo {
     max-height: 100%;
     max-width: 100%;
@@ -12,23 +37,61 @@ img {
     width: 272px;
 }
 
-body, input, button {
-    font-size: 14px;
-    font-family: Roboto,arial,sans-serif;
-    color: #222;
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
+div {
+    display:block;
+}
 
-
-.top {
+.topbar {
     display: flex;
     align-items: center;
     padding: 6px;
 }
-.top_space {
-    height: 60px;
+
+a.topbarlinks:first-of-type {
+    margin-left: 15px;
 }
-.top_space_flex {
-    flex-shrink: 0;
-    box-sizing: border-box;
+a.topbarlinks {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+    text-decoration:none;
 }
+
+style {
+    display: none;
+}
+
+.spacebetweentop {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.spacebetweentop {
+    min-width: initial;
+    min-width: auto;
+}
+
+#topper {
+    height: 48px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+
+}
+
+.spacebetweentop {
+    color: black;
+    min-width: 320px;
+    position: relative;
+    -webkit-transition: box-shadow 250ms;
+    transition: box-shadow 250ms;
+}
+
+
