@@ -29,13 +29,34 @@ body {
     object-fit: contain;
     object-position: center bottom;
     width: auto;
-}
-
-img {
+    position: relative;
+    top: 100px;
     height: 92px;
     aspect-ratio: auto 272 / 92;
     width: 272px;
 }
+
+#morgan {
+    width:auto;
+    height: auto;
+    border-radius: 50%;
+    position:relative;
+    left: 800px;
+    
+}
+
+#gmail {
+    position:relative;
+    left: 800px;
+
+}
+#images {
+    position:relative;
+    left: 800px;
+
+}
+
+
 
 
 .whole {
@@ -63,6 +84,11 @@ a.topbarlinks {
     margin: 0 5px;
     color: #222;
     text-decoration:none;
+}
+
+.toprightbox {
+   float:right;
+   left: 150px;
 }
 
 style {
@@ -93,5 +119,7 @@ style {
     -webkit-transition: box-shadow 250ms;
     transition: box-shadow 250ms;
 }
+
+
 
 
