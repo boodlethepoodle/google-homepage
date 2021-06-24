@@ -1,0 +1,34 @@
+#google_logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+img {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
+    color: #222;
+}
+
+
+
+.top {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+.top_space {
+    height: 60px;
+}
+.top_space_flex {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
