@@ -1,0 +1,1 @@
+This project is to help see how well i can use developer tools and also the cmd line in linux. 
